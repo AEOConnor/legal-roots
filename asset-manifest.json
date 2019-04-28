@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/legal-roots/static/css/main.c66a1839.chunk.css",
+    "main.js": "/legal-roots/static/js/main.79cf55ee.chunk.js",
+    "main.js.map": "/legal-roots/static/js/main.79cf55ee.chunk.js.map",
+    "runtime~main.js": "/legal-roots/static/js/runtime~main.e6c1132e.js",
+    "runtime~main.js.map": "/legal-roots/static/js/runtime~main.e6c1132e.js.map",
+    "static/js/2.d5de9855.chunk.js": "/legal-roots/static/js/2.d5de9855.chunk.js",
+    "static/js/2.d5de9855.chunk.js.map": "/legal-roots/static/js/2.d5de9855.chunk.js.map",
+    "index.html": "/legal-roots/index.html",
+    "precache-manifest.58c6853de799870f7de3a0f846382b5b.js": "/legal-roots/precache-manifest.58c6853de799870f7de3a0f846382b5b.js",
+    "service-worker.js": "/legal-roots/service-worker.js",
+    "static/css/main.c66a1839.chunk.css.map": "/legal-roots/static/css/main.c66a1839.chunk.css.map",
+    "static/media/App.css": "/legal-roots/static/media/homeOffice.c00315c8.jpg",
+    "static/media/aboutServices2.jpg": "/legal-roots/static/media/aboutServices2.deeb66d5.jpg",
+    "static/media/aboutServices3.jpg": "/legal-roots/static/media/aboutServices3.4a7a6d03.jpg",
+    "static/media/legalRootsLogo.png": "/legal-roots/static/media/legalRootsLogo.bfc71905.png"
+  }
+}
