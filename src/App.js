@@ -8,6 +8,7 @@ import Consultation from './Components/Consultation.js';
 import Contact from './Components/Contact.js';
 import Footer from './Components/Footer.js';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import axios from 'axios';
 import './App.css';
 
 
@@ -23,16 +24,27 @@ class App extends Component {
         mailSent: false,
         error: null
       
-      
     }
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleFormSubmit = this.handleFormSubmit.bind(this)
   }
 
-  handleFormSubmit = (e) =>{
+
+
+ async handleFormSubmit(e) {
     e.preventDefault()
     console.log(this.state)
 
+    const form = await axios.post('/api/form', {
+      fName: this.state.fName,
+      lName: this.state.lName,
+      email: this.state.email,
+      message: this.state.message
+    })
     
   }
+
 
   handleChange = (e) => {
     const field = e.target.id;
