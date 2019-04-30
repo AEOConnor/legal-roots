@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3953fa036511f8896290379f7503ec11",
+    "revision": "9f3ef9d6b514b30cd9a701cc357d197c",
     "url": "/legal-roots/index.html"
   },
   {
-    "revision": "a30a1145ee110eeecaca",
-    "url": "/legal-roots/static/css/main.c66a1839.chunk.css"
+    "revision": "1b0fa1b0123774062288",
+    "url": "/legal-roots/static/css/main.0e1e6ba5.chunk.css"
   },
   {
-    "revision": "797407584c91a5c5262e",
-    "url": "/legal-roots/static/js/2.d5de9855.chunk.js"
+    "revision": "75220cfe3f69035375f0",
+    "url": "/legal-roots/static/js/2.dbf41542.chunk.js"
   },
   {
-    "revision": "a30a1145ee110eeecaca",
-    "url": "/legal-roots/static/js/main.79cf55ee.chunk.js"
+    "revision": "1b0fa1b0123774062288",
+    "url": "/legal-roots/static/js/main.fb778516.chunk.js"
   },
   {
     "revision": "8795550071f726bbb72c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4a7a6d0382b6c670cbd2d9fb5fd57545",
     "url": "/legal-roots/static/media/aboutServices3.4a7a6d03.jpg"
+  },
+  {
+    "revision": "f0f00f40cec3f18a2ee337702faad663",
+    "url": "/legal-roots/static/media/consultation.f0f00f40.jpg"
   },
   {
     "revision": "c00315c86fef13525e01de115c3e5bed",
