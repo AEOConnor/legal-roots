@@ -2,6 +2,7 @@ import React from 'react';
 import aboutServices1 from '../assets/aboutServices1.jpg';
 import aboutServices2 from '../assets/aboutServices2.jpg';
 import aboutServices3 from '../assets/aboutServices3.jpg';
+import panDong from '../assets/panDong.jpg';
 
 const About = () => {
   return (
@@ -32,13 +33,20 @@ const About = () => {
           <p>We are taking steps to establish paperless work environment. You benefit that communication between us will be more manageable and you will have quicker access to our services.</p>
           <p>We focus on your experience with us. We ensure transparency and inclusivity and do our best to meet your needs.</p>
         </div>
-        <div className="aboutContainer aboutOurTeam">
-          <figure>
-            <img src="" alt="" />
+        
+        <div className="aboutContainer">
+          <h3>Our Team</h3>
+          <div className="aboutOurTeam"> 
+            <figure>
+            <img src={panDong} alt="Pan Dong, Director and Founder of LegalRoots" />
             <figcaption>Pan Dong, Director and Founder of LegalRoots</figcaption>
           </figure>
-          <p>Pan has devoted his career to upholding the law by providing his legal services to clients for over nine years. Licensed by the Law Society of Ontario (LSO), Pan specializes in employment law, workplace injury claims and small claims court matters and is eager to meet and represent you. Pan was licenced by Beijing Justice Bureau as a lawyer since 2011. In 2014, he moved to Canada and continued pursuing his legal career. Before funding LegalRoots, He was employed by Workplace Safety and Insurance Appeals Tribunal for over two years.</p>
-          <p>Pan speaks Mandarin and English, and in his spare time, assists newcomers settling into Canada.</p>
+          <div>
+            <p>Pan has devoted his career to upholding the law by providing his legal services to clients for over nine years. Licensed by the Law Society of Ontario (LSO), Pan specializes in employment law, workplace injury claims and small claims court matters and is eager to meet and represent you. Pan was licenced by Beijing Justice Bureau as a lawyer since 2011. In 2014, he moved to Canada and continued pursuing his legal career. Before funding LegalRoots, He was employed by Workplace Safety and Insurance Appeals Tribunal for over two years.</p>
+            <p>Pan speaks Mandarin and English, and in his spare time, assists newcomers settling into Canada.</p>
+          </div>
+          </div>
+          
         </div>
       </div>
       <div className="aboutImageGallery">

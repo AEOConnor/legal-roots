@@ -7,15 +7,15 @@ const Header = () => {
     <header className="wrapper">
       <div className="logo">
 
-        <img src={legalRootsLogo} alt="Legal Roots Logo."/>
+        <img src={legalRootsLogo} alt="LegalRoots Logo."/>
         
       </div>
       <div>
-        <h1>Legal Roots</h1>
+        <h1>LegalRoots</h1>
         <p>Legal Services</p>
       </div>
       <div>
-        <button>Consultation</button>
+        <Link to="/consultation">Book a Consultation</Link>
       </div>
     </header>
   ) 

@@ -7,7 +7,7 @@
     "npm": "6.4.1"
   },
   "homepage": "https://aeoconnor.github.io/legal-roots/",
-  "proxy": "http://localhost:3000",
+
   "dependencies": {
     "axios": "^0.18.0",
     "gh-pages": "^2.0.1",
