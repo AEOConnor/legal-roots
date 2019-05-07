@@ -6,7 +6,7 @@
     "node": "10.15.3",
     "npm": "6.4.1"
   },
-  "homepage": "https://aeoconnor.github.io/legal-roots/",
+  "homepage": "https:alannaoconnor.com/legal-roots/",
 
   "dependencies": {
     "axios": "^0.18.0",

@@ -41,7 +41,7 @@ class App extends Component {
     e.preventDefault()
     console.log(this.state)
 
-    const form = await axios.post('/test.php', {
+    const form = await axios.post('/sendMail.php', {
       fName: this.state.fName,
       lName: this.state.lName,
       email: this.state.email,

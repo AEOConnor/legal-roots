@@ -71,7 +71,7 @@ header {
 }
 
 .consultationButton {
-  background: #000;
+  background: #112d4e;
   padding: 10px 15px;
   color: white;
 }
@@ -362,6 +362,15 @@ header {
   object-position: top center;
 }
 
+/* Individual Services shared styles */
+
+.indService {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Consultation component styles */
 .Consultation {
   display: flex;
@@ -395,7 +404,7 @@ form input,
 textarea {
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid #000;
+  border: 1px solid #112d4e;
 }
 
 input[type="submit"] {
@@ -404,7 +413,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: #000;
+  background:#112d4e;
   color: #fff;
 }
 
