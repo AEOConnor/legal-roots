@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const EmploymentLawService = () => {
   return (
-    <section>
+    <section className="indService">
       <Link to="/services">Back to Services</Link>
       <h3>Employment Law Services</h3>
       <ul>

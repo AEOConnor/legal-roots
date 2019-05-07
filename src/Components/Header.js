@@ -15,7 +15,7 @@ const Header = () => {
         <p>Legal Services</p>
       </div>
       <div>
-        <Link to="/consultation">Book a Consultation</Link>
+        <Link to="/consultation" className="consultationButton">Book a Consultation</Link>
       </div>
     </header>
   ) 

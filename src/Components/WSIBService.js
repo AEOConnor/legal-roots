@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const WSIBService = () => {
   return (
-    <section>
+    <section className="indService">
       <Link to="/services">Back to Services</Link>
       <h3>Workplace Safety and Insurance Board (WSIB)/Workplace Safety and Insurance Appeals Tribunal (WSIAT)</h3>
       <p>WSIB is an independent and quasi - judicial institution whose sole jurisdiction is on workplace injuries and work - related illnesses.</p>
